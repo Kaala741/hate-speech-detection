@@ -63,7 +63,7 @@ with st.container():
     def local_css(file_name):
         with open(file_name) as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-    local_css("AutomatedHateSpeech/form.css")
+    local_css("form.css")
     
     left_column, right_column = st.columns(2)
     with left_column:
