@@ -17,7 +17,7 @@ def load_lottiefile(filepath:str):
     return data
 
 # Load the model and tokenizer
-model_path = 'Model/bert_classifier.h5'
+model_path = 'bert_classifier.h5'
 model, tokenizer = load_model(model_path)
 
 lottie_coding = load_lottieurl("https://lottie.host/05d8286a-86bb-483e-a845-5715aca4241e/hrUyVR89oh.json")
